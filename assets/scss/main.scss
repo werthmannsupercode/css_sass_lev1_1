@@ -1,0 +1,59 @@
+@import '_generals.scss';
+@import '_variables.scss';
+@import '_mixins.scss';
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+
+    i:nth-of-type(1) {
+        @include color ($twitter);
+    }
+
+    i:nth-of-type(2) {
+        @include color ($behance);
+    }
+
+    i:nth-of-type(3) {
+        @include color ($facebook);
+    }
+
+    i:nth-of-type(4) {
+        @include color ($vimeo);
+    }
+
+    i:nth-of-type(5) {
+        @include color ($snapchat);
+    }
+
+    i:nth-of-type(6) {
+        @include color ($airbnb);
+    }
+
+    i:nth-of-type(7) {
+        @include color ($amazon);
+    }
+
+    i:nth-of-type(8) {
+        @include color ($android);
+    }
+
+    i:nth-of-type(9) {
+        @include color ($stackoverflow);
+    }
+
+    i:nth-of-type(10) {
+        @include color ($ubuntu);
+    }
+
+    i:nth-of-type(11) {
+        @include color ($github);
+    }
+
+    i:nth-of-type(12) {
+        @include color ($js);
+    }
+}
